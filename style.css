@@ -111,7 +111,15 @@ button {
   margin-bottom: 10px;
 }
 
-.img-description {
+img.zoom-hover {
+  transition: transform 0.3s ease;
+}
+
+img.zoom-hover:hover {
+  transform: scale(1.1);
+}
+
+.img-container {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
