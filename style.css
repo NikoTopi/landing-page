@@ -119,6 +119,13 @@ img.zoom-hover:hover {
   transform: scale(1.1);
 }
 
+button {
+  transition: transform 0.1s ease-in;
+}
+button:hover {
+  transform: scale(0.9);
+}
+
 .img-container {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
@@ -138,7 +145,7 @@ img.zoom-hover:hover {
 
 .quote-content {
   color: #1f2937;
-  padding: 100px 500px 100px 500px;
+  margin: 100px 500px 100px 500px;
 }
 
 .quote {
