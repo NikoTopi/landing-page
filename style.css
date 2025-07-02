@@ -74,6 +74,7 @@ button {
   border-radius: 5px;
   padding: 5px 20px 5px 20px;
   border: 0px;
+  cursor: pointer;
 }
 
 .information .header {
@@ -117,13 +118,6 @@ img.zoom-hover {
 
 img.zoom-hover:hover {
   transform: scale(1.1);
-}
-
-button {
-  transition: transform 0.1s ease-in;
-}
-button:hover {
-  transform: scale(0.9);
 }
 
 .img-container {
@@ -190,6 +184,10 @@ button:hover {
   border-radius: 5px;
   font-size: 24px;
   padding: 10px 40px 10px 40px;
+}
+
+button:active {
+  box-shadow: 2px 2px 5px #e5e7eb;
 }
 
 .footer {
